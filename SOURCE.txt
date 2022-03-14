@@ -1,0 +1,70 @@
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Features</li>
+
+            </ul>
+        </nav>
+
+        <div>
+            <a href="#">Get it Now</a>
+        </div>
+
+
+    </header>
+</body>
+
+
+/**********************************************/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 5vh;
+    color: white;
+    padding: 2%;
+    background-color: #27242b;
+
+}
+
+header div {
+    float: right;
+    margin: 1em 0;
+
+}
+
+header>div a {
+    color: #3d9f96;
+   }
+
+header ul>li {
+    float: left;
+    padding: 0 10%;
+    display: inline;
+    
+}
+
+header nav {
+    width: 25%;
+    float: right;
+
+}
+--------------------------------
+        <nav class="navbar navbar-dark">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white;">Link</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./assets/img/SAYNA_Horizontal_-_Blanc.png" alt="" style="size: 100px;">
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+        </nav>

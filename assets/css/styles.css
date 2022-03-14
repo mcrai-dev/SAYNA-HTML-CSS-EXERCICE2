@@ -1,0 +1,181 @@
+/* Style the links inside the navigation bar */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+body {
+    background-color: #27242b;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+.topnavbar {
+    padding: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px;
+}
+
+#promote {
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    font-size: large;
+    background-color: #27242b;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.topnavbar a {
+    font-family: Open Sans, Arial, sans-serif;
+    /* float: right; */
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    vertical-align: middle;
+    text-decoration: none;
+    /* enleve la underline*/
+    font-size: 13px;
+    /* overflow: auto; */
+}
+
+hr {
+    border-color: rgb(75, 75, 75);
+}
+
+.topnavbar img {
+    width: 30%;
+    height: 30%;
+}
+
+#getitnow {
+    text-decoration: underline;
+    color: #3d9f96;
+}
+
+#newsoftware {
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    color: #3d9f96;
+    font-size: small;
+    text-align: center;
+}
+
+#btn {
+    border-color: #3d9f96;
+    background-color: #3d9f96;
+    margin-top: 2%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 25px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#promote img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.block {
+    background-color: #f7f7f7;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.socialMediaOption {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.socialMediaOption p {
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    color: #3d9f96;
+    font-size: small;
+}
+
+.checkOurNewApp {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: white;
+}
+
+.checkOurNewApp p {
+    font-family: Open Sans, Arial, sans-serif;
+    color: #afafaf;
+}
+
+.checkOurNewApp_Bottom {
+    background-color: white;
+}
+
+.card {
+    text-align: center;
+    border-color: transparent;
+    background-position: 50%;
+    background-image: url(../img/map_bg.png);
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mobileMapCenter {
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.mobileMapCenter img {
+    width: 40%;
+    height: 40%;
+}
+
+#topImg {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    /* margin: 75%; */
+    width: 125px;
+    height: 27px;
+    text-align: center;
+}
+
+.imgIcon {
+    float: right;
+    /* margin-right: 2%; */
+}
+
+.imgIconn {
+    float: left;
+    /* overflow: none; */
+    /* margin-right: 2%; */
+}
+
+.appleIcon {
+    float: left;
+    padding-right: 02%;
+}
+
+#rowWithIcon {
+    background-color: #3d9f96;
+    border-color: #27242b;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
